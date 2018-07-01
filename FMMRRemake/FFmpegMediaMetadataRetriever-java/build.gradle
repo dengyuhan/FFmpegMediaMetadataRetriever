@@ -1,0 +1,10 @@
+apply plugin: 'com.android.library'
+apply from: "bintray.gradle"
+dependencies {
+    compileOnly project(':FFmpegMediaMetadataRetriever-arm64-v8a')
+    compileOnly project(':FFmpegMediaMetadataRetriever-armeabi')
+    compileOnly project(':FFmpegMediaMetadataRetriever-armeabi-v7a')
+    compileOnly project(':FFmpegMediaMetadataRetriever-mips')
+    compileOnly project(':FFmpegMediaMetadataRetriever-x86')
+    compileOnly project(':FFmpegMediaMetadataRetriever-x86_64')
+}

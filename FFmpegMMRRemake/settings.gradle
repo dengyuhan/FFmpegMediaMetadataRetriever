@@ -1,1 +1,0 @@
-include ':app', ':library-java', ':library-armeabi', ':library-armeabi-v7a', ':library-arm64-v8a', ':library-x86', ':library-x86_64', ':library-mips', ':library'

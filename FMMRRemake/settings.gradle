@@ -1,0 +1,1 @@
+include ':app', ':FFmpegMediaMetadataRetriever-java', ':FFmpegMediaMetadataRetriever-armeabi', ':FFmpegMediaMetadataRetriever-armeabi-v7a', ':FFmpegMediaMetadataRetriever-arm64-v8a', ':FFmpegMediaMetadataRetriever-x86', ':FFmpegMediaMetadataRetriever-x86_64', ':FFmpegMediaMetadataRetriever-mips', ':FFmpegMediaMetadataRetriever'

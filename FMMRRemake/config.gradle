@@ -1,0 +1,51 @@
+ext {
+    android =
+            [
+                    applicationId    : "wseemann.media.demo",
+
+                    //版本号
+                    versionCode      : 44,
+                    versionName      : "1.0.14",
+
+                    //sdk版本
+                    compileSdkVersion: 26,
+                    buildToolsVersion: "26.0.2",
+                    minSdkVersion    : 14,
+                    targetSdkVersion : 26,
+                    supportVersion   : "26.1.0",
+            ]
+
+    jcenter =
+            [
+                    library_name       : "FFmpegMediaMetadataRetriever",
+                    library_java       : "FFmpegMediaMetadataRetriever-java",
+                    library_arm64_v8a  : "FFmpegMediaMetadataRetriever-arm64-v8a",
+                    library_armeabi    : "FFmpegMediaMetadataRetriever-armeabi",
+                    library_armeabi_v7a: "FFmpegMediaMetadataRetriever-armeabi-v7a",
+                    library_mips       : "FFmpegMediaMetadataRetriever-mips",
+                    library_x86        : "FFmpegMediaMetadataRetriever-x86",
+                    library_x86_64     : "FFmpegMediaMetadataRetriever-x86_64",
+                    groupId            : "com.dyhdyh.remake",
+                    //项目地址
+                    siteUrl            : "https://github.com/dengyuhan/FFmpegMediaMetadataRetriever",
+                    //项目git地址
+                    gitUrl             : "https://github.com/dengyuhan/FFmpegMediaMetadataRetriever.git",
+                    //项目描述
+                    description        : "wseemann/FFmpegMediaMetadataRetriever的重构版",
+                    //开发者的一些基本信息
+                    authorId           : "dengyuhan",
+                    authorName         : "dengyuhan",
+                    authorEmail        : "22309946@qq.com",
+
+                    //开源协议
+                    licenses           : {
+                        license {
+                            name 'Apache-2.0'
+                            url 'https://opensource.org/licenses/Apache-2.0'
+                        }
+                    },
+                    licenseName        : 'Apache-2.0'
+            ]
+
+
+}
